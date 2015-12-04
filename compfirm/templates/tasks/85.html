@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Задача №85</h4>
+
+            <p>Найти производителей, которые выпускают только принтеры или только PC.
+          При этом искомые производители PC должны выпускать не менее 3 моделей.</p>
+
+            <div class="col-md-6">
+                <h4>Исходные данные</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="col-md-4">Maker</th>
+                            <th class="col-md-4">Model</th>
+                            <th class="col-md-4">Type</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for product in products %}
+                            <tr>
+                                <td class="col-md-4">{{ product.maker }}</td>
+                                <td class="col-md-4">{{ product.model }}</td>
+                                <td class="col-md-4">{{ product.type }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Результат</h4>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="col-md-4">Maker</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for marker in markers %}
+                            <tr>
+                                <td class="col-md-4">{{ marker.maker }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

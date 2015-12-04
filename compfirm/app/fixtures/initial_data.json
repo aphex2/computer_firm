@@ -1,0 +1,406 @@
+[
+  {
+    "fields": {
+      "type": "PC",
+      "maker": "B"
+    },
+    "model": "app.product",
+    "pk": "1121"
+  },
+  {
+    "fields": {
+      "type": "PC",
+      "maker": "A"
+    },
+    "model": "app.product",
+    "pk": "1232"
+  },
+  {
+    "fields": {
+      "type": "PC",
+      "maker": "A"
+    },
+    "model": "app.product",
+    "pk": "1233"
+  },
+  {
+    "fields": {
+      "type": "PC",
+      "maker": "E"
+    },
+    "model": "app.product",
+    "pk": "1260"
+  },
+  {
+    "fields": {
+      "type": "Printer",
+      "maker": "A"
+    },
+    "model": "app.product",
+    "pk": "1276"
+  },
+  {
+    "fields": {
+      "type": "Printer",
+      "maker": "D"
+    },
+    "model": "app.product",
+    "pk": "1288"
+  },
+  {
+    "fields": {
+      "type": "Laptop",
+      "maker": "A"
+    },
+    "model": "app.product",
+    "pk": "1298"
+  },
+  {
+    "fields": {
+      "type": "Laptop",
+      "maker": "C"
+    },
+    "model": "app.product",
+    "pk": "1321"
+  },
+  {
+    "fields": {
+      "type": "Printer",
+      "maker": "A"
+    },
+    "model": "app.product",
+    "pk": "1401"
+  },
+  {
+    "fields": {
+      "type": "Printer",
+      "maker": "A"
+    },
+    "model": "app.product",
+    "pk": "1408"
+  },
+  {
+    "fields": {
+      "type": "Printer",
+      "maker": "D"
+    },
+    "model": "app.product",
+    "pk": "1433"
+  },
+  {
+    "fields": {
+      "type": "Printer",
+      "maker": "E"
+    },
+    "model": "app.product",
+    "pk": "1434"
+  },
+  {
+    "fields": {
+      "type": "Laptop",
+      "maker": "B"
+    },
+    "model": "app.product",
+    "pk": "1750"
+  },
+  {
+    "fields": {
+      "type": "Laptop",
+      "maker": "A"
+    },
+    "model": "app.product",
+    "pk": "1752"
+  },
+  {
+    "fields": {
+      "type": "PC",
+      "maker": "E"
+    },
+    "model": "app.product",
+    "pk": "2112"
+  },
+  {
+    "fields": {
+      "type": "PC",
+      "maker": "E"
+    },
+    "model": "app.product",
+    "pk": "2113"
+  },
+  {
+    "fields": {
+      "screen": 11,
+      "ram": 32,
+      "model": "1298",
+      "speed": 350,
+      "price": "700.00",
+      "hd": 4.0
+    },
+    "model": "app.laptop",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "screen": 12,
+      "ram": 64,
+      "model": "1321",
+      "speed": 500,
+      "price": "970.00",
+      "hd": 8.0
+    },
+    "model": "app.laptop",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "screen": 14,
+      "ram": 128,
+      "model": "1750",
+      "speed": 750,
+      "price": "1200.00",
+      "hd": 12.0
+    },
+    "model": "app.laptop",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "screen": 15,
+      "ram": 64,
+      "model": "1298",
+      "speed": 600,
+      "price": "1050.00",
+      "hd": 10.0
+    },
+    "model": "app.laptop",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "screen": 14,
+      "ram": 128,
+      "model": "1752",
+      "speed": 750,
+      "price": "1150.00",
+      "hd": 10.0
+    },
+    "model": "app.laptop",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "screen": 12,
+      "ram": 64,
+      "model": "1298",
+      "speed": 450,
+      "price": "950.00",
+      "hd": 10.0
+    },
+    "model": "app.laptop",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "price": "600.00",
+      "ram": 64,
+      "cd": "12x",
+      "model": "1232",
+      "speed": 500,
+      "hd": 5.0
+    },
+    "model": "app.pc",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "price": "850.00",
+      "ram": 128,
+      "cd": "40x",
+      "model": "1121",
+      "speed": 750,
+      "hd": 14.0
+    },
+    "model": "app.pc",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "price": "600.00",
+      "ram": 64,
+      "cd": "12x",
+      "model": "1233",
+      "speed": 500,
+      "hd": 5.0
+    },
+    "model": "app.pc",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "price": "850.00",
+      "ram": 128,
+      "cd": "40x",
+      "model": "1121",
+      "speed": 600,
+      "hd": 14.0
+    },
+    "model": "app.pc",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "price": "850.00",
+      "ram": 128,
+      "cd": "40x",
+      "model": "1121",
+      "speed": 600,
+      "hd": 8.0
+    },
+    "model": "app.pc",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "price": "950.00",
+      "ram": 128,
+      "cd": "50x",
+      "model": "1233",
+      "speed": 750,
+      "hd": 20.0
+    },
+    "model": "app.pc",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "price": "400.00",
+      "ram": 32,
+      "cd": "12x",
+      "model": "1232",
+      "speed": 500,
+      "hd": 10.0
+    },
+    "model": "app.pc",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "price": "350.00",
+      "ram": 64,
+      "cd": "24x",
+      "model": "1232",
+      "speed": 450,
+      "hd": 8.0
+    },
+    "model": "app.pc",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "price": "350.00",
+      "ram": 32,
+      "cd": "24x",
+      "model": "1232",
+      "speed": 450,
+      "hd": 10.0
+    },
+    "model": "app.pc",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "price": "350.00",
+      "ram": 32,
+      "cd": "12x",
+      "model": "1260",
+      "speed": 500,
+      "hd": 10.0
+    },
+    "model": "app.pc",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "price": "980.00",
+      "ram": 128,
+      "cd": "40x",
+      "model": "1233",
+      "speed": 900,
+      "hd": 40.0
+    },
+    "model": "app.pc",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "price": "970.00",
+      "ram": 128,
+      "cd": "50x",
+      "model": "1233",
+      "speed": 800,
+      "hd": 20.0
+    },
+    "model": "app.pc",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "color": "n",
+      "model": "1276",
+      "type": "Laser",
+      "price": "400.00"
+    },
+    "model": "app.printer",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "color": "y",
+      "model": "1433",
+      "type": "Jet",
+      "price": "270.00"
+    },
+    "model": "app.printer",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "color": "y",
+      "model": "1434",
+      "type": "Jet",
+      "price": "290.00"
+    },
+    "model": "app.printer",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "color": "n",
+      "model": "1401",
+      "type": "Matrix",
+      "price": "150.00"
+    },
+    "model": "app.printer",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "color": "n",
+      "model": "1408",
+      "type": "Matrix",
+      "price": "270.00"
+    },
+    "model": "app.printer",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "color": "n",
+      "model": "1288",
+      "type": "Laser",
+      "price": "400.00"
+    },
+    "model": "app.printer",
+    "pk": 6
+  }
+]

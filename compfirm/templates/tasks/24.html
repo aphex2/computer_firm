@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Задача №24</h4>
+
+            <p>Перечислите номера моделей любых типов, имеющих самую высокую цену по всей
+           имеющейся в базе данных продукции.</p>
+
+            <div class="col-md-6">
+                <h4>Исходные данные</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="col-md-4">Model</th>
+                            <th class="col-md-4">Price</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for product in products %}
+                            <tr>
+                                <td class="col-md-4">{{ product.model }}</td>
+                                <td class="col-md-4">{{ product.price }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Результат</h4>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="col-md-4">Model</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">{{ model.model }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

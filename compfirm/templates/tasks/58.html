@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Задача №58</h4>
+
+            <p>Для каждого типа продукции и каждого производителя из таблицы Product c точностью
+                до двух десятичных знаков найти процентное отношение числа моделей данного типа данного
+                производителя к общему числу моделей этого производителя. Вывод: maker, type, процентное
+                отношение числа моделей данного типа к общему числу моделей производителя</p>
+
+            <div class="col-md-6">
+                <h4>Исходные данные</h4>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="col-md-4">Maker</th>
+                            <th class="col-md-4">Model</th>
+                            <th class="col-md-4">Type</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for product in products %}
+                            <tr>
+                                <td class="col-md-4">{{ product.maker }}</td>
+                                <td class="col-md-4">{{ product.model }}</td>
+                                <td class="col-md-4">{{ product.type }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Результат</h4>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="col-md-4">Maker</th>
+                            <th class="col-md-4">Type</th>
+                            <th class="col-md-4">Rate</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for product in result %}
+                            <tr>
+                                <td class="col-md-4">{{ product.maker }}</td>
+                                <td class="col-md-4">{{ product.type }}</td>
+                                <td class="col-md-4">{{ product.rate }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
