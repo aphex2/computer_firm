@@ -50,7 +50,7 @@ class GetHighestPriceModelView(View):
         laptops = Laptop.objects.values("model", "price")
         printers = Printer.objects.values("model", "price")
 
-        # Create an iterator for all models
+        # Create list of all models
         models_iterator = list(chain(pcs, laptops, printers))
 
         data = {
